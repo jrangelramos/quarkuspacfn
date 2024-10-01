@@ -24,10 +24,10 @@ metadata:
     pipelinesascode.tekton.dev/task: git-clone
 
     # Fetch the func-s2i task
-    pipelinesascode.tekton.dev/task-1: 
+    #pipelinesascode.tekton.dev/task-1: 
 
     # Fetch the func-deploy task
-    pipelinesascode.tekton.dev/task-2: 
+    #pipelinesascode.tekton.dev/task-2: 
 
     # Fetch the pipelie definition from the .tekton directory
     pipelinesascode.tekton.dev/pipeline: .tekton/pipeline-pac.yaml
